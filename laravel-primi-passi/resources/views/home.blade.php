@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>Ciao</h1>
+    @dump($nomi)
     
 </body>
 </html>

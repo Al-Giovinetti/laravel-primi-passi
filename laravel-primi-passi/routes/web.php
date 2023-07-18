@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
+Route::get('/home', function () {
+    $data = [
+        "nomi" => ["ciccio","friccio","riccio"]
+    ];
+
+    return view("home", $data);
 });
